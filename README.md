@@ -20,7 +20,7 @@ check it- https://ask-doc-ai.streamlit.app/
 
 - **Frontend/UI**: Streamlit  
 - **Embeddings**: `distiluse-base-multilingual-cased-v2` from `sentence-transformers`  
-- **QA Model**: `bert-base-multilingual-cased` via Hugging Face Transformers  
+- **QA Model**: `distilbert-base-cased-distilled-squad` via Hugging Face Transformers  
 - **Vector Search**: FAISS (Facebook AI Similarity Search)  
 - **Text Processing**: LangChain’s text splitter for chunking long documents  
 
@@ -38,7 +38,7 @@ check it- https://ask-doc-ai.streamlit.app/
    The user submits a query in any language. The query is embedded, and the assistant finds the most relevant document chunks.
 
 4. **Answer Generation**  
-   A pre-trained BERT model analyzes the context and returns the most accurate answer to the user.
+   A pre-trained model analyzes the context and returns the most accurate answer to the user.
 
 ## Example Use Cases
 📚 Students: Ask questions about lecture notes or study material
