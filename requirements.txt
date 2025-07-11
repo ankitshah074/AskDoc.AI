@@ -1,8 +1,12 @@
 streamlit
 PyPDF2
 python-docx
-sentence-transformers
-transformers
 langchain
 faiss-cpu
-
+python-dotenv
+huggingface-hub
+instructorEmbedding
+sentence-transformers
+langchain_community
+langchain_huggingface
+langchain_groq
