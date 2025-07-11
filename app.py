@@ -4,7 +4,6 @@ from docx import Document
 from sentence_transformers import SentenceTransformer
 from transformers import pipeline
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.embeddings import HuggingFaceInstructEmbeddings
 from langchain.chains import ConversationalRetrievalChain
 from langchain_community.vectorstores import FAISS
 from langchain.llms import HuggingFaceHub
