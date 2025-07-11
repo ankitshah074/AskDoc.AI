@@ -6,7 +6,7 @@ from transformers import pipeline
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings import HuggingFaceInstructEmbeddings
 from langchain.chains import ConversationalRetrievalChain
-from langchain.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS
 from langchain.llms import HuggingFaceHub
 from langchain_community.vectorstores import Chroma
 from langchain_groq import ChatGroq
