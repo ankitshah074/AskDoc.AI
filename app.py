@@ -21,8 +21,7 @@ st.set_page_config(page_title="GenAI Doc Assistant", layout="wide")
 st.title("📄 GenAI Document Assistant 🌍")
 st.markdown("""
 Upload a **PDF**, **TXT**, or **DOCX** file.  
-Ask questions in **Hindi, English, French, Spanish, Bengali, Arabic**, or any other major language.  
-Powered by **M-BERT** & **Sentence Transformers**
+Ask questions from your Document
 """)
 from dotenv import load_dotenv
 load_dotenv()
